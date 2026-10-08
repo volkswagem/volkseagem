@@ -45,3 +45,7 @@ Next.js 14 com App Router, React 18, TypeScript e Tailwind CSS. A página é ren
 ## Revisão visual aprovada
 
 A referência visual enviada pelo utilizador substitui a composição editorial ampla pela apresentação de um painel móvel compacto: fundo azul-noite com anéis radiais subtis, emblema circular luminoso próprio no topo, etiqueta “Guia independente”, quatro ações empilhadas com ícones e setas, secções expansíveis compactas e rodapé de transparência. O emblema usa somente a palavra FinanciaPasso e não reproduz o logótipo ou símbolo de qualquer fabricante.
+
+## Aviso educativo reforçado
+
+A página será apresentada exclusivamente como material educativo e informativo. Os avisos visíveis esclarecem que não representa Volkswagen, Volkswagen Financial Services, Banco Volkswagen, banco, concessionária ou parceiro autorizado; não usa o CNPJ de terceiros; não presta atendimento, não emite boletos, não calcula quitação, não cobra taxas e não recolhe dados sensíveis.
