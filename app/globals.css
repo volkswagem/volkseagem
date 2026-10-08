@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #14243a;
+  --ink-soft: #2c4058;
+  --mint: #16c7b7;
+  --paper: #f7f9f7;
+  --line: #d8e1de;
+  --muted: #637386;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-site), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--mint);
+  outline-offset: 4px;
+}
+
+::selection {
+  color: var(--ink);
+  background: #a7f1e9;
+}
+
+.display-title {
+  letter-spacing: -0.055em;
+}
+
+.eyebrow {
+  letter-spacing: 0.14em;
+}
+
+.grid-paper {
+  background-image: linear-gradient(to right, rgba(20, 36, 58, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 36, 58, 0.045) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.card-lift {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(20, 36, 58, 0.12);
+  border-color: rgba(22, 199, 183, 0.7);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

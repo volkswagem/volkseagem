@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Marca FinanciaPasso</title>
+  <desc id="desc">Traço vertical menta ao lado de um quadrado azul-petróleo com um caminho documental.</desc>
+  <rect width="256" height="256" rx="54" fill="#14243A"/>
+  <rect x="48" y="42" width="16" height="172" rx="8" fill="#16C7B7"/>
+  <path d="M103 75h48l28 28v78a10 10 0 0 1-10 10h-66a10 10 0 0 1-10-10V85a10 10 0 0 1 10-10Z" fill="#F7F9F7"/>
+  <path d="M151 75v28h28" fill="#D8E1DE"/>
+  <path d="M119 132h43M119 155h28" stroke="#16C7B7" stroke-width="9" stroke-linecap="round"/>
+</svg>
