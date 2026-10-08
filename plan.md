@@ -41,3 +41,7 @@ Landing page estática de uma só página, em português do Brasil, para orienta
 
 ## Implementação e execução
 Next.js 14 com App Router, React 18, TypeScript e Tailwind CSS. A página é renderizada no servidor para que texto, headings e metadados estejam no HTML inicial. Não há backend, cookies, analytics, pixels, armazenamento ou dependências de dados sensíveis. O comando de desenvolvimento escuta em `0.0.0.0:3000`.
+
+## Revisão visual aprovada
+
+A referência visual enviada pelo utilizador substitui a composição editorial ampla pela apresentação de um painel móvel compacto: fundo azul-noite com anéis radiais subtis, emblema circular luminoso próprio no topo, etiqueta “Guia independente”, quatro ações empilhadas com ícones e setas, secções expansíveis compactas e rodapé de transparência. O emblema usa somente a palavra FinanciaPasso e não reproduz o logótipo ou símbolo de qualquer fabricante.
