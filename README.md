@@ -46,7 +46,14 @@ Consulte as políticas atuais do [Google Ads sobre deturpação](https://support
 
 ## Publicar na Render
 
-A configuração atual é otimizada para **Web Service**: use `npm install` no build e `npm run start` no comando de execução. A Render fornece `PORT`, e o Next.js deve escutá-la. Configure o domínio público antes de adicionar canonical, `og:url`, sitemap absoluto ou campanhas.
+O projeto gera uma exportação estática na pasta `out`, adequada para **Static Site**. Configure o serviço com:
+
+- Build command: `npm install && npm run build`
+- Publish directory: `out`
+- Branch: `main`
+- Auto-deploy: ativado
+
+Configure o domínio público antes de adicionar canonical, `og:url`, sitemap absoluto ou campanhas.
 
 ## GitHub
 
